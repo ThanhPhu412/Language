@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float luong_co_ban, so_ngay_cong_thuc_te, TienLuong;
+    printf("nhap luong co ban: ");
+    scanf("%f", &luong_co_ban);
+    printf("nhap so ngay cong thuc te: ");
+    scanf("%f", &so_ngay_cong_thuc_te);
+
+    if (so_ngay_cong_thuc_te => 26) {
+        TienLuong = luong_co_ban * (so_ngay_cong_thuc_te / 26);
+    } else {
+        TienLuong = luong_co_ban + (luong_co_ban * 1.5 * (so_ngay_cong_thuc_te - 26) / 26);
+    }
+
+    printf("Luong nhan vien la: %.2f", TienLuong);
+
+    return 0;
+}
