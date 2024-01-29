@@ -1,0 +1,134 @@
+body {
+    
+  }
+  
+  /* CSS cho màn hình iPad */
+  @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1)
+     {
+    .grid-container{
+        grid-template-areas: 
+        'item1 item1 item1 item1'
+        'item2 item2 item2 item2'
+        'item3 item3 item3 item3'
+        'item4 item4 item4 item4'
+        'item5 item5 item5 item5'
+        'item6 item6 item6 item6'
+        'item7 item7 item7 item7'
+        'item8 item8 item8 item8'
+        'item9 item9 item9 item9';
+    }
+}
+
+/* Reset một số kiểu mặc định */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Kiểu cho header */
+.header {
+  background-image: url('.//imgduan/b3.jpg');
+  background-size: cover;
+  color: white;
+  padding: 200px;
+}
+
+/* Kiểu cho navbar */
+.navbar {
+   font-size: large;
+
+   /* Thêm thêm kiểu khi cần */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9b59b6;
+  
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color:#8e44ad;
+}
+
+/* Kiểu cho nội dung chính trong header */
+.main-content h1 {
+   font-size: xx-large;
+}
+.main-content p {
+   margin-bottom: 20px;
+}
+.main-content button {
+   padding: 10px; 
+   /* Thêm thêm kiểu khi cần */
+}
+
+/* Kiểu cho phần tính năng */
+.features .feature {
+   width: calc(50% - 40px);
+   padding:20px; 
+}
+
+
+/* Kiểu cho các mục trong grid-container */
+.item1 {
+    grid-area: item1;
+    background-color: rgb(145, 145, 208)
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+    background-color: pink;
+}
+.item4 {
+    grid-area: item4;
+    background-color: pink;
+}
+.item5 {
+    grid-area: item5;
+}
+.item6 {
+    grid-area: item6;
+    background-color: rgb(145, 145, 208)
+}
+.item7 {
+    grid-area: item7;
+}
+.item8 {
+    grid-area: item8;
+    background-color: rgb(145, 145, 208)
+}
+.item9 {
+    grid-area: item9;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'item1 item2 item2 item3'
+        'item4 item4 item5 item6'
+        'item7 item8 item9 item9';
+}
+ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
