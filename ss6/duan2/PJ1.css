@@ -5,7 +5,7 @@ body {
 .section {
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .section .personal-details, .section .other-details {
@@ -30,23 +30,55 @@ body {
     max-width: 500px;
  
 }
-.skills {
-    display: flex;
-}
-
-.skill-box {
-    width: auto;
-    padding: 10px;
-    margin: 1%;
-    border: 1px solid #ddd;
-    text-align: center;
+.skill-badge {
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 14px;
+    color: black;
+    flex-wrap: wrap;
+}
+.skill-badge img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
 }
 
-.skill-box .icon {
-    font-size: 30px;
-}
+.box
+{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        display: flex;
+    align-items: center;
+    padding: 5px 15px ;
+    margin: 15px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
 
-.skill-box .experience {
-    font-size: 20px;
+   
 }
+.box android{ 
+    height: 50%;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.angular
+.bootstrap 
+.vue 
+.react
+.mongodb
+.laravel{}
+
+
+    
