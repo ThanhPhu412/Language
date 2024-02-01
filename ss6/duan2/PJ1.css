@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.section .personal-details, .section .other-details {
+    max-width: 500px;
+    margin-left: 80px;
+    
+}
+
+.section .personal-details {
+      float: left
+}
+
+.section .other-details {
+    
+    font-weight: bold;
+
+}
+.section .other-details-items {
+    margin-left: -40%;
+    font-weight: bold;
+    color: #336666;
+    max-width: 500px;
+ 
+}
+.skill-badge {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 14px;
+    color: black;
+    flex-wrap: wrap;
+}
+.skill-badge img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.box
+{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        display: flex;
+    align-items: center;
+    padding: 5px 15px ;
+    margin: 15px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+
+   
+}
+.box android{ 
+    height: 50%;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.angular
+.bootstrap 
+.vue 
+.react
+.mongodb
+.laravel{}
+
+
+    
